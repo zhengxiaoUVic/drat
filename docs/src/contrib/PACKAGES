@@ -6,3 +6,16 @@ Suggests: git2r, knitr, rmarkdown
 License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
 NeedsCompilation: no
+
+Package: StanMoMo
+Version: 1.0.0
+Depends: R (>= 3.5.0)
+Imports: loo, methods, Rcpp (>= 0.12.0), rstan (>= 2.18.1), rstantools (>= 2.0.0), tidyverse,
+          dplyr, tibble, httr, bridgesampling, stats, utils, tidyselect, latex2exp, tidyr,
+          ggplot2, ggfan
+LinkingTo: BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), rstan (>= 2.18.1),
+          StanHeaders (>= 2.18.0)
+Suggests: knitr, rmarkdown, shinystan, Cairo
+License: GPL-3
+MD5sum: a5efa30a3df3dcb5981236d6be52f540
+NeedsCompilation: yes
