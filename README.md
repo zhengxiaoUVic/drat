@@ -6,3 +6,5 @@ install the rmBayes binary package via
 ``` r
 install.packages("rmBayes", repos = "https://github.com/zhengxiaoUVic/drat", type = "binary", dependencies = TRUE)
 ```
+
+Thank you, [Dr. Karim Barigou](https://github.com/kabarigou/StanMoMo), for your help with using drat. Merci.
