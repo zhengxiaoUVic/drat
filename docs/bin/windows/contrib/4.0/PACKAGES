@@ -1,18 +1,10 @@
-Package: drat
-Version: 0.1.8
-Depends: R (>= 3.2.0)
-Imports: utils
-Suggests: git2r, knitr, rmarkdown
-License: GPL (>= 2)
-
-Package: StanMoMo
-Version: 1.0.0
-Depends: R (>= 3.5.0)
-Imports: loo, methods, Rcpp (>= 0.12.0), rstan (>= 2.18.1), rstantools (>= 2.0.0),
-          tidyverse, dplyr, tibble, httr, bridgesampling, stats, utils, tidyselect,
-          RColorBrewer, fanplot, latex2exp, tidyr
-LinkingTo: BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), rstan (>= 2.18.1),
-          StanHeaders (>= 2.18.0)
-Suggests: knitr, rmarkdown, shinystan, Cairo
-License: GPL-3
+Package: rmBayes
+Version: 0.1.13.9000
+Depends: R (>= 3.4.0)
+Imports: methods, Rcpp (>= 0.12.0), RcppParallel (>= 5.0.1), rstan (>= 2.18.1),
+         rstantools (>= 2.1.1)
+LinkingTo: BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0),
+         RcppParallel (>= 5.0.1), rstan (>= 2.18.1), StanHeaders (>= 2.18.0)
+Suggests: testthat (>= 3.0.0), covr
+License: GPL (>= 3)
 Archs: i386, x64
