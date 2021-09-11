@@ -1,9 +1,8 @@
-## Installation of StanMoMo
+## Installation of rmBayes
 
 If you have R 4.0.0 or later and use Windows or Mac, you can directly
-install the StanMoMo binary package via
+install the rmBayes binary package via
 
 ``` r
-repos<-c("https://cloud.r-project.org","https://kabarigou.github.io/drat")
-install.packages("StanMoMo",repos=repos,type = "binary")
+install.packages("rmBayes", repos = "https://github.com/zhengxiaoUVic/drat", type = "binary", dependencies = TRUE)
 ```
